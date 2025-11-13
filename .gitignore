@@ -1,0 +1,9 @@
+#Abaikan file state OpenTofu/Terraform
+*.tfstate
+*.tfstate.backup
+
+#Abaikan direktori plugin
+.terraform/
+
+#Abaikan file variabel lokal
+*.tfvars
